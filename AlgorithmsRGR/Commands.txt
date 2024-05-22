@@ -1,0 +1,47 @@
+place 10 10
+place 20 30
+place 0 15
+place 15 20
+place 25 5
+place 14 7
+place 22 0
+place 12 3
+place 11 23
+place 11 -5
+place 30 6
+place 30 3
+place 16 -12
+print
+area 0 0 5
+area 0 0 20
+area 10 -2 6
+search 10 10
+delete 10 10
+print
+delete 11 23
+search 10 10
+print
+delete 25 5
+print
+delete 30 6
+print
+delete 14 7
+print
+delete 22 0
+print
+delete 12 3
+print
+delete 11 -5
+print
+delete 0 15
+print
+delete 15 20
+print
+delete 20 30
+print
+delete 30 3
+print
+delete 16 -12
+print
+place 1 1
+print
