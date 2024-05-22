@@ -2,9 +2,8 @@
 
 int main()
 {
-	setlocale(0, "russian");
 	QuadTreeNodeType Tree;
 	Tree.ReadCommandsFromFile("Commands.txt");
-	//Tree.~QuadTreeNodeType();
+	Tree.~QuadTreeNodeType();
 	return 0;
 }

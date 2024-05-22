@@ -841,4 +841,3 @@ NodesList::~NodesList()
 		delete last;
 	}
 }
-
